@@ -20,8 +20,8 @@
 
 .movie img {
   position: relative;
-  top: -50px;
-  max-width: 150px;
+  top: -30px;
+  max-width: 100px;
   width: 100%;
   margin-right: 30px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
@@ -31,17 +31,17 @@
 .movie .movie__title,
 .movie .movie__year {
   margin: 0;
-  font-weight: 300;
 }
 
 .movie .movie__title {
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 20px;
   color: #2c2c2c;
 }
 
 .movie .movie__genres {
   list-style: none;
+
   padding: 0;
   margin: 0;
   display: flex;
@@ -51,5 +51,5 @@
 .movie__genres li,
 .movie .movie__year {
   margin-right: 10px;
-  font-size: 14px;
+  font-size: 10px;
 }
